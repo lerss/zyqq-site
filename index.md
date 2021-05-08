@@ -2,7 +2,7 @@
 
 ## Learning Patterns
 
-The book << Design Patterns >> use a structrued way to organize its content. I will use this approach to organize my learning knowledge.
+The book << Design Patterns >> uses a structured way to organize its content. I will use this approach to organize my learning knowledge.
 
 {% for post in site.posts %}
   <article>
