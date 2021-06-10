@@ -1,1 +1,10 @@
+repository: lerss/zyqq-site
+
+plugins:
+- jekyll-github-metadata
+- jekyll-mentions
+- jekyll-redirect-from
+- jekyll-sitemap
+- jemoji
+
 theme: jekyll-theme-midnight

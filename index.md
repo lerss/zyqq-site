@@ -1,17 +1,31 @@
-# My Logs
+---
+layout: default
+---
 
-## Learning Patterns
 
-The book << Design Patterns >> uses a structured way to organize its content. I will use this approach to organize my learning knowledge.
+# Knowledge in Learning Patterns
 
+<ul>
 {% for post in site.posts %}
-  <article>
-    <h2>
+  <li>
       <a href="{{ post.url }}">
         {{ post.title }}
       </a>
-    </h2>
     <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
-    {{ post.content }}
-  </article>
+  </li>
 {% endfor %}
+</ul>
+
+
+# All Pages
+
+<ul>
+{% for page in site.pages %}
+  <li>
+    <a href="{{ page.url }}">
+      {{ page.name }}
+    </a>
+    <time datetime="{{ page.date }}">{{ page.date }}</time>
+  </li>
+{% endfor %}
+</ul>

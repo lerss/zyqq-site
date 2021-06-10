@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: word vector
 date: 2021-05-06 14:36
 category: NLP
@@ -40,6 +40,8 @@ summary: This post will cover word vector, word embedding.
 [//]: # (teacher's note: `Language model` vs `text model` vs `word model`)
 
 
+{
+
 
 Other thoughts:
 
@@ -49,35 +51,9 @@ Other thoughts:
 * 分析？为什么要分析？都能怎么分析？分析出了什么？
 * 某种方式？都有那些方式？为什么选择这种方式？
 
+
+}
+
 # Application
 
-
-
-# Learning Patterns
-
-## Learn by graph & animation
-
-## Learn by example
-
-## Learn by comparison
-
-## Learn by history
-
-## Learn by positioning
-
-## Custom by industry
-
-## Custom by reader's knowledge
-
-## Custom by reader's methodology
-
-## Custom by reader's learning path
-
-Where does this reader come across?
-
-There's a big difference for the best expression of `Z` bettwen a reader came from `X` and `Y`.
-
-## Inspire by commonly asked questions
-
-## Inspire by inspirational questions
 
